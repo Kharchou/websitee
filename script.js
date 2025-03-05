@@ -2,17 +2,17 @@ const menuItems = document.querySelectorAll('.menu-item');
 const rightContent = document.querySelector('.right-content');
 
 const images = {
-    film: [
+    Works: [
         'image1.jpg',
         'image2.jpg',
         'image3.jpg'
     ],
-    'video-installation': [
+    Bio: [
         'video1.jpg',
         'video2.jpg',
         'video3.jpg'
     ],
-    prints: [
+    Contact: [
         'print1.jpg',
         'print2.jpg',
         'print3.jpg'
