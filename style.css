@@ -16,23 +16,24 @@ body {
 
 .left-menu h1 {
  font-family: Courier, monospace;
+  
   color: white;
   font-size: 30px;
-  position: absolute;
-  top: 50%;
-  width: 100%;
+  
+  position: fixed;
+  top: 45%;
+left: 45%;
   text-align: center;
  
 }
 
+
 .left-menu h2 {
-    list-style: none;
- 
+
   font-family: Courier, monospace;
-  color: white;
   font-size: 20px;
   color: white;
-     position: relative;
+     position: fixed;
   top: 0%;
   width: 100%;
     text-align: center;
@@ -42,6 +43,7 @@ body {
     text-decoration: none;
     color: white;
   padding:100px;
+  
 }
 
 
