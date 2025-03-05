@@ -15,10 +15,14 @@ body {
 
 
 .left-menu h1 {
-  font-family: Courier, monospace;
+ font-family: Courier, monospace;
   color: white;
- position: sticky;
-  top: 0;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+ 
 }
 
 .left-menu ul {
@@ -55,17 +59,4 @@ body {
     margin-bottom: 0; 
     margin-left: 80%; 
       margin-right: 0; 
-
-}
-
-@media (max-width: 768px) {
-   .right-content {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-@media (max-width: 480px) {
-   .right-content {
-        grid-template-columns: repeat(1, 1fr);
-    }
 }
