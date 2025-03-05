@@ -9,7 +9,7 @@ body {
   margin-top: 2em;
 }
 
-.left-menu h1 {
+ h1 {
   font-family: Courier, monospace;
   font-weight: normal;
   color: white;
@@ -21,14 +21,14 @@ body {
   text-align: center;
 }
 
-.left-menu h2 {
+ h2 {
   font-family: Courier, monospace;
   font-weight: normal;
   font-size: 20px;
   text-align: center;
 }
 
-.left-menu a {
+ a {
   text-decoration: none;
   color: white;
   padding: 150px;
