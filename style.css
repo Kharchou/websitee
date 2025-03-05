@@ -33,15 +33,14 @@ left: 45%;
   font-family: Courier, monospace;
   font-size: 20px;
   color: white;
-     position: fixed;
-  top: 0%;
-  width: 100%;
     text-align: center;
+
 }
 
 .left-menu a {
     text-decoration: none;
     color: white;
+  position: relative;
   padding:100px;
   
 }
