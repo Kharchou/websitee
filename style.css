@@ -17,8 +17,8 @@ body {
 .left-menu h1 {
   font-family: Courier, monospace;
   color: white;
-  font-size: 25px;
-    margin-top: 0;
+ position: sticky;
+  top: 0;
 }
 
 .left-menu ul {
