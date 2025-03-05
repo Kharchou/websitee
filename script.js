@@ -1,11 +1,15 @@
 const menuItems = document.querySelectorAll('.menu-item');
 const rightContent = document.querySelector('.right-content');
 
+
 const images = {
-    Works: [
+    Work: [
         'image1.jpg',
         'image2.jpg',
-        'image3.jpg'
+        'image3.jpg',
+      'video1.jpg',
+        'video2.jpg',
+        'video3.jpg'
     ],
     Bio: [
         'video1.jpg',
