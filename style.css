@@ -33,12 +33,7 @@ left: 45%;
   color: white;
     text-align: center;
 position: fixed;
-
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
+  
 }
 
 .left-menu a {
