@@ -1,36 +1,65 @@
 body {
   background-color: black;
-
   background-image: url("");
   background-attachment: local;
   background-repeat: no-repeat;
   background-size: cover;
-
-  margin-top: 2em;
+  margin: 0;
+  padding: 0;
+  text-align: center;
 }
 
- h1 {
+/* Navigation bar strip */
+h2 {
+  font-family: Courier, monospace;
+  font-weight: normal;
+  font-size: 20px;
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent strip */
+  padding: 15px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly; /* Even spacing between links */
+  align-items: center;
+}
+
+/* Links inside the nav */
+a {
+  text-decoration: none;
+  color: white;
+  padding: 20px 40px; /* Increased padding for more spacing */
+  font-size: 22px; /* Slightly larger font */
+}
+
+/* Center the h1 */
+h1 {
   font-family: Courier, monospace;
   font-weight: normal;
   color: white;
   font-size: 30px;
-
-  position: fixed;
-  top: 45%;
-  left: 42%;
-  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
- h2 {
-  font-family: Courier, monospace;
-  font-weight: normal;
-  font-size: 20px;
-  text-align: center;
-}
+/* Mobile fixes */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 24px;
+  }
 
- a {
-  text-decoration: none;
-  color: white;
-  padding: 150px;
-  text-align: center;
+  h2 {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px; /* Increased gap for better spacing */
+    padding: 10px 0;
+  }
+
+  a {
+    padding: 15px; /* Smaller padding for mobile */
+    font-size: 20px; /* Adjusted font size */
+  }
 }
