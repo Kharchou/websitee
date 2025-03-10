@@ -18,13 +18,13 @@ body {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  padding: 0px 10; 
+  padding: 0px 10;
 }
 
 .top-strip a {
   text-decoration: none;
   color: white;
-  padding: 0px 10px; 
+  padding: 0px 10px;
   font-size: 18px;
 }
 
@@ -32,7 +32,7 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
-  padding: 80px 40px 40px; 
+  padding: 80px 40px 40px;
   justify-content: center;
   text-align: center;
 }
@@ -62,7 +62,6 @@ body {
   margin-top: 10px;
 }
 
-
 @media (max-width: 600px) {
   .top-strip h2 {
     flex-direction: column;
@@ -77,12 +76,12 @@ body {
   }
 
   .works-grid {
-    grid-template-columns: repeat(2, 1fr); /* 2 columns on smaller screens */
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (max-width: 500px) {
   .works-grid {
-    grid-template-columns: repeat(1, 1fr); /* 1 column on very small screens */
+    grid-template-columns: repeat(1, 1fr);
   }
 }
