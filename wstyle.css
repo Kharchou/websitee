@@ -9,7 +9,6 @@ body {
   text-align: center;
 }
 
-/* Top Navigation Strip (EXACT same styling as original) */
 .top-strip h2 {
   font-family: Courier, monospace;
   font-weight: normal;
@@ -19,22 +18,21 @@ body {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  padding: 0px 10; /* Ensures proper spacing */
+  padding: 0px 10; 
 }
 
 .top-strip a {
   text-decoration: none;
   color: white;
-  padding: 0px 10px; /* Same spacing */
+  padding: 0px 10px; 
   font-size: 18px;
 }
 
-/* Works grid layout */
 .works-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
-  padding: 80px 40px 40px; /* Prevents overlap with top strip */
+  padding: 80px 40px 40px; 
   justify-content: center;
   text-align: center;
 }
@@ -64,7 +62,7 @@ body {
   margin-top: 10px;
 }
 
-/* Responsive: Adjust spacing for smaller screens */
+
 @media (max-width: 600px) {
   .top-strip h2 {
     flex-direction: column;
