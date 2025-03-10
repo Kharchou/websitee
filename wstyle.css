@@ -19,14 +19,14 @@ body {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  padding: 10px 0; /* Ensures proper spacing */
-  margin: 0;
+  padding:  0px 10; /* Ensures proper spacing */
+ 
 }
 
 .top-strip a {
   text-decoration: none;
   color: white;
-  padding: 0px 40px; /* Same spacing */
+  padding:  0px 10px; /* Same spacing */
   font-size: 18px;
 }
 
