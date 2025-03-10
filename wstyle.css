@@ -1,0 +1,55 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Courier, monospace;
+    margin: 0;
+    padding: 0;
+}
+
+.works-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    gap: 20px; /* Space between images */
+    padding: 40px;
+    justify-content: center;
+    text-align: center;
+}
+
+.work {
+    background-color: rgba(255, 255, 255, 0.1); /* Light background */
+    padding: 10px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.work:hover {
+    transform: scale(1.05); /* Subtle hover effect */
+}
+
+.work img {
+    width: 100%; /* Make images fill the square */
+    height: 200px; /* Fixed height */
+    object-fit: cover; /* Keep images proportionate */
+    border-radius: 10px;
+}
+
+/* Text under images */
+.work p {
+    color: white; /* Matches the rest of the site */
+    font-family: Courier, monospace; /* Same font as the rest */
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+/* Responsive: Stack images on smaller screens */
+@media (max-width: 800px) {
+    .works-grid {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    }
+}
+
+@media (max-width: 500px) {
+    .works-grid {
+        grid-template-columns: repeat(1, 1fr); /* 1 column */
+    }
+}
