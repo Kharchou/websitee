@@ -9,31 +9,24 @@ body {
   text-align: center;
 }
 
-/* Navigation bar strip */
 h2 {
   font-family: Courier, monospace;
   font-weight: normal;
-  font-size: 20px;
-  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent strip */
-  padding: 15px 0;
+  background-color: rgba(0, 0, 0, 0.7); 
   position: fixed;
-  top: 0;
-  left: 0;
   width: 100%;
   display: flex;
-  justify-content: space-evenly; /* Even spacing between links */
+  justify-content: space-evenly; 
   align-items: center;
 }
 
-/* Links inside the nav */
 a {
   text-decoration: none;
   color: white;
-  padding: 20px 40px; /* Increased padding for more spacing */
-  font-size: 22px; /* Slightly larger font */
+  padding: 0px 40px; 
+  font-size: 18px; 
 }
 
-/* Center the h1 */
 h1 {
   font-family: Courier, monospace;
   font-weight: normal;
@@ -45,7 +38,6 @@ h1 {
   transform: translate(-50%, -50%);
 }
 
-/* Mobile fixes */
 @media (max-width: 600px) {
   h1 {
     font-size: 24px;
@@ -54,12 +46,12 @@ h1 {
   h2 {
     flex-direction: column;
     text-align: center;
-    gap: 20px; /* Increased gap for better spacing */
+    gap: 20px; 
     padding: 10px 0;
   }
 
   a {
-    padding: 15px; /* Smaller padding for mobile */
-    font-size: 20px; /* Adjusted font size */
+    padding: 15px; 
+    font-size: 20px; 
   }
 }
