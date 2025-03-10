@@ -19,14 +19,13 @@ body {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  padding:  0px 10; /* Ensures proper spacing */
- 
+  padding: 0px 10; /* Ensures proper spacing */
 }
 
 .top-strip a {
   text-decoration: none;
   color: white;
-  padding:  0px 10px; /* Same spacing */
+  padding: 0px 10px; /* Same spacing */
   font-size: 18px;
 }
 
@@ -89,4 +88,3 @@ body {
     grid-template-columns: repeat(1, 1fr); /* 1 column on very small screens */
   }
 }
-
